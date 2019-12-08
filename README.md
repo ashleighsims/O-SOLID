@@ -71,3 +71,5 @@ To run the unit tests for this basic example use the following. Make sure you ar
 
 `./vendor/bin/phpunit --bootstrap vendor/autoload.php app/tests/`
 
+## Useful Resources
+- https://stackoverflow.com/a/44913313 - Example Two 

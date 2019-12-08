@@ -1,6 +1,6 @@
 <?php
 
-namespace App\OpenClosedPrincipleViolation;
+namespace App\OpenClosedPrincipleViolation\ExampleOne;
 
 class Checkout {
     public function process($basket) {
@@ -12,4 +12,6 @@ class Checkout {
         // Process logic for making a cash payment...
         return "Cash payment made...";
     }
+
+    // What if we wanted to process credit cards? We shouldn't add a method here to do that.
 }

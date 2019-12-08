@@ -1,6 +1,6 @@
 <?php
 
-namespace App\OpenClosedPrinciple\Interfaces;
+namespace App\OpenClosedPrinciple\ExampleOne\Interfaces;
 
 interface PaymentMethodInterface {
     public function makePayment();

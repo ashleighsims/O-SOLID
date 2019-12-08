@@ -1,8 +1,8 @@
 <?php
 
-namespace App\OpenClosedPrinciple;
+namespace App\OpenClosedPrinciple\ExampleOne;
 
-use App\OpenClosedPrinciple\Interfaces\PaymentMethodInterface;
+use App\OpenClosedPrinciple\ExampleOne\Interfaces\PaymentMethodInterface;
 
 class Checkout {
     public function process($basket, PaymentMethodInterface $paymentMethod) {
